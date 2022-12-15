@@ -1,0 +1,28 @@
+.comments {
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.comments li {
+  text-align: left;
+  padding: 0.3rem 0.5rem;
+  border: 2px solid #ccc;
+  background-color: #3f4348;
+  color: white;
+}
+
+.comments p {
+  margin: 0;
+}
+
+.comments li div {
+  text-align: right;
+  font-style: italic;
+}
+
+.comments address {
+  display: inline;
+}

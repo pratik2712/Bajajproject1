@@ -1,0 +1,26 @@
+.basetable,
+.basetable th,
+.basetable td {
+  border: 0.1rem solid black;
+  padding: 0.2rem;
+  font-size: 85%;
+}
+.basetable {
+  background-color: rgba(253, 234, 20, 0.817);
+  width: 100%;
+}
+.basetable tr:nth-child(odd) {
+  background-color: rgb(237, 53, 50);
+}
+.basetable tr {
+  cursor: pointer;
+}
+
+.tablecontainer {
+  width: 40vw;
+  height: 45vh;
+  border: 0.1rem solid black;
+  overflow-x: auto;
+  overflow-y: scroll;
+  margin-top: 0.5vh;
+}

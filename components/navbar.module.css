@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #1a1e23;
+  padding: 0 1%;
+}
+
+.logo {
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+.optionbar {
+  color: white;
+  justify-self: flex-start;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.header li {
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  margin-left: 3rem;
+}
+.header li:hover,
+.header li:active,
+.header li.active {
+  color: #ff1847;
+}
